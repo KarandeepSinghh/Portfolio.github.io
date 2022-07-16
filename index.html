@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My_PortFolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome\css\font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+    <script src="Js/jquery-1.10.1.min.js"></script>
+
+    <script type="text/javascript">
+		$(document).ready
+		(
+			function () 
+			{
+				$(window).scroll(
+				function ()
+				{
+					if ($(this).scrollTop() > 500) 
+					{
+						$('.scrollup').fadeIn();
+					} 
+					else 
+					{
+						$('.scrollup').fadeOut();
+					}
+				}
+			);
+
+		$('.scrollup').click
+		(
+			function () 
+			{
+				$("html, body").animate
+				(
+					{
+						scrollTop: 0
+					}, 600
+				);
+				return false;
+			}
+		);
+		}
+		);
+		</script>
+		<style>
+			.scrollup {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: none;
+    text-indent: -9999px;
+    background: url('icon_top.png') no-repeat;
+    background-color: #000;
+}
+		</style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-xxl fixed-top bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">My_PortFolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-3 ">
+                        <a class="nav-link " aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#about">ABOUT US</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#skills">SKILLS</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#works">WORKS</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="#contactus">CONTACT US</a>
+                    </li>
+
+                    <li class="nav-item mx-3">
+                        <a href="#contactus">
+                            <button type="button" class="btn btn-outline-dark btn-sm px-2 mt-1 ms-sm-2 ">HIRE
+                                ME</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="box1">
+        <div class="container">
+
+            <span class="contbox1">
+                Welcome to <b>My_PortFolio</b>
+                <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, nemo? Ex optio
+                    repudiandae voluptas error, amet esse quibusdam, reiciendis exercitationem cupiditate consequuntur
+                    hic quisquam.repudiandae voluptas error, amet esse quibusdam, reiciendis exercitationem cupiditate
+                    consequuntur hic quisquam.</p>
+
+                <button type="button" class="btn btn-outline-light btn-lg  ">DOWNLOAD CV</button>
+                <a href="#contactus">
+                    <button type="button" class="btn btn-outline-light btn-lg ">HIRE ME</button>
+            </span></a>
+
+            <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button> -->
+        </div>
+    </div>
+    
+    <a name="about">
+        <div class="box2">
+            <div class="card">
+
+                <span class="card-header">ABOUT US</span>
+    </a>
+    <div class="card-body">
+        <p class="card-text"> <b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque ea dolorem
+                veritatis
+                nesciunt adipisci doloremque laborum dolor cupiditate</b> <br>, facilis numquam nam soluta
+            dolore quam porro aspernatur
+            distinctio quisquam perferendis ipsa.Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Cumque ea
+            dolorem
+            veritatis nesciunt adipisci doloremque laborum dolor cupiditate, facilis numquam nam soluta dolore
+            quam porro
+            aspernatur distinctio quisquam perferendis ipsa.
+            distinctio quisquam perferendis ipsa.Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Cumque ea
+            dolorem
+            veritatis nesciunt adipisci doloremque laborum dolor cupiditate, facilis numquam nam soluta dolore
+            quam porro
+            aspernatur distinctio quisquam perferendis ipsa</p>
+        <button type="button" class="btn2 btn-primary btn-lg px-4 gap-3">MORE ABOUT US</button>
+    </div>
+    </div>
+    </div>
+
+    <div class="boxabtus">
+
+    </div>
+    </div>
+    </div>
+
+    
+
+
+    <a name="skills">
+        <div class="box6">
+            <div class="card">
+
+                <span class="card-header">SKILLS</span>
+    </a>
+
+    
+    <div class="rows mt-5">
+        <div class="row mt-5 ">
+            <div class="col-lg-4" id="sklone">
+                <p class="card-text "> <b>HTML</b>
+
+            </div>
+            <div class="col-lg-4" id="skltwo">
+                <p class="card-text"> <b>CSS</b>
+
+            </div>
+            <div class="col-lg-4" id="sklthree">
+                <p class="card-text"> <b>BOOTSTRAP</b>
+
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-4" id="sklfour">
+                <p class="card-text"> <b>JAVASCRIPT</b>
+            </div>
+
+
+            <div class="col-lg-4" id="sklfive">
+                <p class="card-text"> <b>JQUERY</b>
+            </div>
+
+
+            <div class="col-lg-4" id="sklsix">
+                <p class="card-text"> <b>PHP</b>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-6" id="sklseven">
+                <p class="card-text"> <b>WORDPRESS</b>
+            </div>
+
+
+            <div class="col-lg-6" id="skleight">
+                <p class="card-text"> <b>SEO</b>
+            </div>
+        </div>
+    </div>
+    </div>
+    <hr>
+
+    <div class="box3">
+
+    </div>
+    </div>
+    </div>
+
+
+    <a name="works">
+        <div class="box6">
+            <div class="card">
+
+                <span class="card-header">WORKS</span>
+    </a>
+    
+    </div>
+    </div>
+    <div class="hero mt-5">
+        <div class="mycustomrow">
+            <ul>
+                <li><img src="images/JANNAT-5.jpg" alt=""></li>
+                <li><img src="images/MENU-JPEG-1-PAGE.jpg" alt=""></li>
+                <li><img src="images/MENU-JPEG-2-PAGE.jpg" alt=""></li>
+                <!-- <li><img src="images/SOM-FLYER.jpg" alt=""></li> -->
+                <li><img src="images/CHOTA BHEEM SOM jpeg.jpg" alt=""></li>
+                <li><img src="images/BOOK-COVER-PRACTICE.jpg" alt=""></li>
+                <li><img src="images/MENU-JPEG-1-PAGE.jpg" alt=""></li>
+                <li><img src="images/MENU-JPEG-2-PAGE.jpg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+
+    <hr>
+
+
+    <div class="box4">
+
+    </div>
+    </div>
+    </div>
+
+
+
+    <section class="social">
+        <ul>
+            <li><a href="#">Twitter <i class="fa fa-twitter"></i></a></li>
+            <li><a href="#">Facebook <i class="fa fa-facebook"></i></a></li>
+            <li><a href="#">Dribbble <i class="fa fa-dribbble"></i></a></li>
+            <li><a href="#">Behance <i class="fa fa-behance"></i></a></li>
+
+        </ul>
+    </section>
+    <hr>
+
+
+
+    <a name="contactus">
+        <div class="cnt1">
+            <div class="card">
+
+                <span class="card-header">CONTACT US</span>
+    </a>
+    </div>
+    </div>
+    </div>
+    <div class="container">
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="name@example.com">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Select Your Query</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Are you a Member?</label>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Elaborate your concern</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+    </div>
+    <!-- <h1>Top of the page</h1> -->
+
+<!-- <article style="height: 1000px"> -->
+    <!-- <p style="margin-bottom: 600px">&hellip;</p> -->
+    <!-- <p>Then click the box.</p> -->
+    <a href="#" class="scrollup">Scroll</a>
+</article>
+
+<hr>
+
+
+<div class="container-fluid bg-dark">
+    <div class="container d-inline align-item-center">
+        <center>
+        <div class="row">
+            <h1 class="myname">KARANDEEP SINGH</h1>
+            
+        </div>
+        <div class="row">
+            <p class="myname1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore omnis, magni doloremque nihil <br> enim a ipsum itaque maiores sit, necessitatibus odio modi et architecto, debitis natus at minima! Quam, ipsa.</p>
+            
+        </div>
+        <div class="row">
+            <h4>Copyright @ 2022 Karandeep singh.</h4>
+        </div>
+    </center>
+    </div>
+
+</div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.flipster.min.js"></script>
+    <script>
+        $('.mycustomrow').flipster({
+            style: 'mycustomrow',
+            spacing: -0.3,
+        });
+    </script>
+</body>
+
+</html>
